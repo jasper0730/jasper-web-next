@@ -1,5 +1,4 @@
 import { Banner } from "@/components/common/Banner";
-import { ToDoList } from "@/components/blog/ToDoList";
 
 import styles from "@/styles/app/blog.module.sass";
 
@@ -14,7 +13,6 @@ export default function BlogPage(params) {
           <h2 className={styles.title}>Blog</h2>
         </div>
       </Banner>
-      <ToDoList />
     </div>
   );
 }
